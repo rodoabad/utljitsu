@@ -61,8 +61,7 @@ The following sections outlines the practices that I use in all UTL code that I 
  If you do require a global variable, it should be in ALL CAPS. In general, if a module is available from the CMS that does the same thing, just use that. If the information you are attempting to store requires computation, a global variable can be used, following these examples:
 
  - `TEMPLATE_VERSION = '1.0';`
- - `IS_TEMPLATE = cms.request.param('template');`
- - `DEBUG_MODE = cms.request.param('debug');`
+ - `IS_TEMPLATE = cms.request.param('template') | defaultval('no') | strbool;`
 
  B. <a name="nc-local-variables">Local Variables</a>
 

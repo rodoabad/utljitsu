@@ -24,6 +24,7 @@ Having worked on a code-base with several other developers with each having thei
  - [Custom Properties](#nc-custom-properties)
  - [Macros](#nc-macros)
 - [Beautiful Syntax](#nc-beautiful-syntax)
+ - [Opening and Closing UTL Statements](#bs-open-close-utl)
 
 ---
 
